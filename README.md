@@ -25,7 +25,6 @@ This project demonstrates a **CRUD (Create, Read, Update, Delete) API** built us
 ---
 
 ### 📂 Project Structure
-
 ```mermaid
 graph TD;
     A[crudoperations-springboot] --> B[src/main/java/com/example/crud]
@@ -51,8 +50,7 @@ graph TD;
     A --> J[README.md]
 
 
-
-
+```
 
 ---
 
