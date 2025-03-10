@@ -25,6 +25,21 @@ This project demonstrates a **CRUD (Create, Read, Update, Delete) API** built us
 ---
 
 ## 📂 Project Structure
+crudoperations-springboot
+│── src/main/java/com/example/crud
+│   ├── controller
+│   │   ├── UserController.java
+│   ├── model
+│   │   ├── User.java
+│   ├── repository
+│   │   ├── UserRepository.java
+│   ├── service
+│   │   ├── UserService.java
+│   ├── CrudOperationsApplication.java
+│── src/main/resources
+│   ├── application.properties
+│── pom.xml
+
 
 
 ---
