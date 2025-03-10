@@ -19,8 +19,7 @@ This project demonstrates a **CRUD (Create, Read, Update, Delete) API** built us
 - **Spring Boot** - Backend framework  
 - **Spring Data JPA** - ORM for database  
 - **MySQL** - Relational database  
-- **Lombok** - Simplifies boilerplate code  
-- **Swagger** - API documentation  
+
 
 ---
 
