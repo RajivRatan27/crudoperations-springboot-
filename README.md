@@ -24,14 +24,31 @@ This project demonstrates a **CRUD (Create, Read, Update, Delete) API** built us
 
 ---
 
-## 📂 Project Structure
-<details> <summary>Click to expand diagram</summary>
+### 📂 Project Structure
+
+```mermaid
 graph TD;
-    User-->Controller;
-    Controller-->Service;
-    Service-->Repository;
-    Repository-->Database;
-</details>
+    A[crudoperations-springboot] --> B[src/main/java/com/example/crud]
+    
+    B --> C[controller]
+    C --> C1[UserController.java]
+    
+    B --> D[model]
+    D --> D1[User.java]
+    
+    B --> E[repository]
+    E --> E1[UserRepository.java]
+    
+    B --> F[service]
+    F --> F1[UserService.java]
+    
+    B --> G[CrudOperationsApplication.java]
+    
+    A --> H[src/main/resources]
+    H --> H1[application.properties]
+    
+    A --> I[pom.xml]
+    A --> J[README.md]
 
 
 
