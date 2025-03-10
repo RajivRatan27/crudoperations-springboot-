@@ -25,11 +25,14 @@ This project demonstrates a **CRUD (Create, Read, Update, Delete) API** built us
 ---
 
 ## 📂 Project Structure
+<details> <summary>Click to expand diagram</summary>
 graph TD;
     User-->Controller;
     Controller-->Service;
     Service-->Repository;
     Repository-->Database;
+</details>
+
 
 
 
