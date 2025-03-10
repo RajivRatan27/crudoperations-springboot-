@@ -39,6 +39,7 @@ crudoperations-springboot
 │── src/main/resources
 │   ├── application.properties
 │── pom.xml
+tree -I 'target|node_modules'
 
 
 
