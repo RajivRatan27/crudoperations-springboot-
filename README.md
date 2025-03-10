@@ -9,9 +9,7 @@ This project demonstrates a **CRUD (Create, Read, Update, Delete) API** built us
 ✔️ Spring Boot framework with RESTful API  
 ✔️ Spring Data JPA for database interaction  
 ✔️ MySQL database integration  
-✔️ Swagger API documentation  
 ✔️ Exception handling and validation  
-✔️ Docker support (if added)  
 
 ---
 
