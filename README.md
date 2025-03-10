@@ -25,3 +25,46 @@ This project demonstrates a **CRUD (Create, Read, Update, Delete) API** built us
 ---
 
 ## 📂 Project Structure
+
+
+---
+
+## 🚀 API Endpoints
+
+| Method | Endpoint         | Description             |
+|--------|-----------------|-------------------------|
+| GET    | /users          | Fetch all users        |
+| GET    | /users/{id}     | Fetch user by ID       |
+| POST   | /users          | Create a new user      |
+| PUT    | /users/{id}     | Update user details    |
+| DELETE | /users/{id}     | Delete a user          |
+
+---
+
+## 🔧 Setup and Installation
+
+### 📌 Prerequisites:
+1. Install **Java 17+**
+2. Install **MySQL**
+3. Install **Maven**
+
+### 🚀 Steps to Run:
+```sh
+# Clone the repository
+git clone https://github.com/RajivRatan27/crudoperations-springboot.git
+
+# Navigate to project directory
+cd crudoperations-springboot
+
+# Configure MySQL database in src/main/resources/application.properties
+# Example:
+# spring.datasource.url=jdbc:mysql://localhost:3306/crud_db
+# spring.datasource.username=root
+# spring.datasource.password=root
+
+# Build the project
+mvn clean install
+
+# Run the application
+mvn spring-boot:run
+
